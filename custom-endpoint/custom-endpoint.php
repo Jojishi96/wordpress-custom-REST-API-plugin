@@ -47,8 +47,8 @@ class LocalizeClass {
     public function get_user_location() {
         $userIP = $_SERVER['REMOTE_ADDR'];
          
-        // Testing my own IP Address
-        // $userIP = '188.167.254.116'; 
+        // Mockup/placeholder IP Address
+        // $userIP = ''; 
 
         // API end URL 
         $apiURL = 'https://freegeoip.app/json/'.$userIP; 
