@@ -1,14 +1,14 @@
 # Custom REST API Endpoint for WordPress
 A small plugin for Wordpress for creating and calling a custom GET request endpoint.
 
-Installation:
+# Installation:
 
 Just drag and drop the custom-endpoint folder in to your WordPress plugin folder.
 For ex.: `X:\...\wp-content\plugins`
 
-Usage:
+# Usage:
 
-# The plugin changes your default `wp-json` endpoint to `zeni-json`.
+The plugin changes your default `wp-json` endpoint to `zeni-json`.
 
 All you need to do is just call `http://.../zeni-json/v1/localize` and it should print:
 - The server's local time
