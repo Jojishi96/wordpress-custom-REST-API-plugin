@@ -7,9 +7,9 @@ Download the repository and drag and drop the `custom-endpoint` folder in to you
 
 For ex.: `X:\...\wp-content\plugins`
 
-# Usage:
+Then login to your WordPress admin dashboard and enable the `Custom REST API Endpoint` plugin.
 
-The plugin changes your default `wp-json` endpoint to `zeni-json`.
+# Usage:
 
 All you need to do is just call `http://.../zeni-json/v1/localize` and it should print:
 - The server's local time
