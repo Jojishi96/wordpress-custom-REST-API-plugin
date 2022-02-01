@@ -4,7 +4,7 @@ A small plugin for Wordpress for creating and calling a custom GET request endpo
 Installation:
 
 Just drag and drop the custom-endpoint folder in to your WordPress plugin folder.
-For ex.: X:\<your-wordpress-path>\wp-content\plugins
+For ex.: `X:\<your-wordpress-path>\wp-content\plugins`
 
 Usage:
 
