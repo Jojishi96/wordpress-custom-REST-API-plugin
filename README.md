@@ -11,10 +11,12 @@ Then login to your WordPress admin dashboard and enable the `Custom REST API End
 
 # Usage:
 
-All you need to do is just call `http://.../zeni-json/v1/localize` and it should print:
+All you need to do is just call `http://.../wp-json/v1/localize` and it should print:
 - The server's local time
 - The user's remote IP address
 - The user's latitude and longitude based on the remote IP address
 In your browser.
+
+Note that if your server changes your `wp-json` endpoint name, then replace that with what it is set to on your end.
 
 Should serve as an example code for future projects with a similar goal.
