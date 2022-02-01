@@ -1,21 +1,14 @@
 <?php
 /**
- * @package Zeni PHP Assignment
+ * @package Custom REST API Endpoint
  * @version 1.0.0
  */
 /*
-Plugin Name: Zeni PHP Assignment
-Description: Custom REST API Plugin - PHP Assignment sent by Zeni
-Author: Jozef Samek
+Plugin Name: Custom REST API Endpoint
+Description: 
+Author: Jojishi96
 Version: 1.0.0
 */
-
-// Change wp-json URL prefix to zeni-json
-add_filter( 'rest_url_prefix', 'rest_url_prefix' );
-
-function rest_url_prefix( ) {
-  return 'zeni-json';
-}
 
 // GET custom endpoint functions based on the assignment
 class LocalizeClass {
@@ -47,7 +40,7 @@ class LocalizeClass {
     public function get_user_location() {
         $userIP = $_SERVER['REMOTE_ADDR'];
          
-        // Mockup/placeholder IP Address
+        // Uncomment the next line for a different IP address result
         // $userIP = ''; 
 
         // API end URL 
@@ -85,7 +78,6 @@ class LocalizeClass {
 
 function get_localize() {
         $result = new LocalizeClass;
-        // echo current_time('mysql');
         echo($result->get_server_time());
         echo " ";
         echo($result->get_user_ip());
