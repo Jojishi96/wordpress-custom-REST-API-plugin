@@ -1,5 +1,5 @@
 # Custom REST API Endpoint for WordPress
-A small, plugin for Wordpress for creating and calling a custom GET request endpoint.
+A small plugin for Wordpress for creating and calling a custom GET request endpoint.
 
 Installation:
 
