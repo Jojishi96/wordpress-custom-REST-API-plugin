@@ -8,7 +8,7 @@ For ex.: `X:\...\wp-content\plugins`
 
 Usage:
 
-The plugin changes your default wp-json endpoint to zeni-json.
+# The plugin changes your default `wp-json` endpoint to `zeni-json`.
 
 All you need to do is just call `http://.../zeni-json/v1/localize` and it should print:
 - The server's local time
